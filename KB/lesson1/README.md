@@ -123,16 +123,11 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson1
 ​ $ python exercise2.py 
 Please enter an IP address: 80.98.100.240
 
-    Octet1     |    Octet2     |    Octet3     |    Octet4     
-
--------------- | ------------- | ------------- | --------------
-
-      80       |      98       |      100      |      240
-
-    0b1010000   |   0b1100010   |   0b1100100   |  0b11110000
-
-     0x50      |     0x62      |     0x64      |     0xf0
-
+Octet1     |    Octet2     |    Octet3     |    Octet4     
+---------- | ------------- | ------------- | --------------
+80       |      98       |      100      |      240
+0b1010000   |   0b1100010   |   0b1100100   |  0b11110000
+0x50      |     0x62      |     0x64      |     0xf0
 -------------- | ------------- | ------------- | --------------
 
 Four columns, fifteen characters wide, a header column, data centered in the column.
@@ -173,15 +168,11 @@ Four columns, fifteen characters wide, a header column, data centered in the col
 
 Process these ARP entries and print out a table of "IP ADDR" to "MAC ADDRESS" mappings. The output should look like following:
 
-             IP ADDR |          MAC ADDRESS
-
--------------------- | --------------------
-
-        10.220.88.29 |       5254.abbe.5b7b
-
-        10.220.88.30 |       5254.ab71.e119
-
-        10.220.88.32 |       5254.abc7.26aa
+IP ADDR |          MAC ADDRESS
+------- | --------------------
+10.220.88.29 |       5254.abbe.5b7b
+10.220.88.30 |       5254.ab71.e119
+10.220.88.32 |       5254.abc7.26aa
 
 Two columns, 20 characters wide, data right aligned, a header column.
  
