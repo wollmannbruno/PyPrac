@@ -76,27 +76,28 @@ Length is 4 minutes
 
 
 [Automate the Boring Stuff with Python (Chapter 6 on Strings)](https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiNDI1NDQ5NyIsImRlbGl2ZXJ5X2lkIjoiejY2aXRoZmFycXR4bzh4amNjeHUiLCJ1cmwiOiJodHRwczovL2F1dG9tYXRldGhlYm9yaW5nc3R1ZmYuY29tL2NoYXB0ZXI2Lz9fX3M9OGN2cHNtd2pwc3ZuZjI4eXR3Z2EifQ)
+
 *Read up through the section on .join() and .split() string methods.*
 
 
 1. Python naming conventions:
     1. For variable names, function names, object names, and module names use lower case separated by underscore, for example:
 
-        my_router
-        find_set_of_devices
-        convert_id_string_to_list
+            my_router
+            find_set_of_devices
+            convert_id_string_to_list
 
     2. For class names, capitalize the first letter of each word.  Do not use any underscores.  For example:
 
-        ManyToManyField
-        ClientHistory
-        UserProfile﻿﻿﻿
+            ManyToMa    nyField
+            ClientHistory
+            UserProfile﻿﻿﻿
 
     3. For constants, use all upper case; use underscores for word separation.
 
-        PI = 3.14
-        EMAIL_MODE
-        EMAIL_FROM_ADDRESS
+            PI = 3.14
+            EMAIL_MODE
+            EMAIL_FROM_ADDRESS
 
 
 # Exercises
@@ -124,15 +125,15 @@ Please enter an IP address: 80.98.100.240
 
     Octet1     |    Octet2     |    Octet3     |    Octet4     
 
----------------|---------------|---------------|---------------
+-------------- | ------------- | ------------- | --------------
 
       80       |      98       |      100      |      240
 
-   0b1010000   |   0b1100010   |   0b1100100   |  0b11110000
+    0b1010000   |   0b1100010   |   0b1100100   |  0b11110000
 
      0x50      |     0x62      |     0x64      |     0xf0
 
----------------|---------------|---------------|---------------
+-------------- | ------------- | ------------- | --------------
 
 Four columns, fifteen characters wide, a header column, data centered in the column.
 
@@ -172,15 +173,15 @@ Four columns, fifteen characters wide, a header column, data centered in the col
 
 Process these ARP entries and print out a table of "IP ADDR" to "MAC ADDRESS" mappings. The output should look like following:
 
-             IP ADDR|          MAC ADDRESS
+             IP ADDR |          MAC ADDRESS
 
---------------------| --------------------
+-------------------- | --------------------
 
-        10.220.88.29|       5254.abbe.5b7b
+        10.220.88.29 |       5254.abbe.5b7b
 
-        10.220.88.30|       5254.ab71.e119
+        10.220.88.30 |       5254.ab71.e119
 
-        10.220.88.32|       5254.abc7.26aa
+        10.220.88.32 |       5254.abc7.26aa
 
 Two columns, 20 characters wide, data right aligned, a header column.
  
@@ -188,31 +189,31 @@ Two columns, 20 characters wide, data right aligned, a header column.
 # CLASS OUTLINE
 
 1. Introduction (VIDEO1)
-   * Purpose of the course  [0:11]
-   * Who is this video series for?  [0:33]
-   * About me  [2:51]
-   * Course logistics  [3:29]
-   * Apply what you learn  [4:23]
-   * Context for the exercises  [4:49]
+   1. Purpose of the course  [0:11]
+   2. Who is this video series for?  [0:33]
+   3. About me  [2:51]
+   4. Course logistics  [3:29]
+   5. Apply what you learn  [4:23]
+   6. Context for the exercises  [4:49]
 
 2. Why Learn Programming? (VIDEO2)
-   * Programming as a power skill  [0:10]
-   * Still need to retain core engineering skills  [0:20]
-   * Automation is major trend in our industry  [0:30]
-   * Range of potential programming skills  [0:54]
+   1. Programming as a power skill  [0:10]
+   2. Still need to retain core engineering skills  [0:20]
+   3. Automation is major trend in our industry  [0:30]
+   4. Range of potential programming skills  [0:54]
 
 3. Why Python? (VIDEO3)
-   * Large, active community  [0:20]
-      * Libraries                                               
-      * Learning resources                                      
-      * People you can ask questions to                         
-   * High-level language  [1:29]
-   * Widely available on systems  [1:53]
-   * Readability  [2:05]
-   * Supports beginners through advanced programmers  [2:33]
+   1. Large, active community  [0:20]
+      1. Libraries                                               
+      2. Learning resources                                      
+      3. People you can ask questions to                         
+   2. High-level language  [1:29]
+   3. Widely available on systems  [1:53]
+   4. Readability  [2:05]
+   5. Supports beginners through advanced programmers  [2:33]
 
 4. Python2 versus Python3? (VIDEO4)
-   * What should network engineers do (as of today)?  [1:20]
+   1. What should network engineers do (as of today)?  [1:20]
 
 5. Characteristics of Python (VIDEO5)
    1. Blocks of code are indicated by indentation  [0:13]
