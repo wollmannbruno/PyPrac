@@ -80,20 +80,19 @@ Length is 4 minutes
 
 
 1. Python naming conventions:
-
-    a. For variable names, function names, object names, and module names use lower case separated by underscore, for example:
+    1. For variable names, function names, object names, and module names use lower case separated by underscore, for example:
 
         my_router
         find_set_of_devices
         convert_id_string_to_list
 
-    b. For class names, capitalize the first letter of each word.  Do not use any underscores.  For example:
+    2. For class names, capitalize the first letter of each word.  Do not use any underscores.  For example:
 
         ManyToManyField
         ClientHistory
         UserProfile﻿﻿﻿
 
-    c. For constants, use all upper case; use underscores for word separation.
+    3. For constants, use all upper case; use underscores for word separation.
 
         PI = 3.14
         EMAIL_MODE
@@ -124,6 +123,7 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson1
 Please enter an IP address: 80.98.100.240
 
     Octet1     |    Octet2     |    Octet3     |    Octet4     
+
 ---------------|---------------|---------------|---------------
 
       80       |      98       |      100      |      240
@@ -135,7 +135,6 @@ Please enter an IP address: 80.98.100.240
 ---------------|---------------|---------------|---------------
 
 Four columns, fifteen characters wide, a header column, data centered in the column.
-
 
 
 - [ ] 3. Create three different variables the first variable should use all lower case characters with underscore ( _ ) as the word separator. The second variable should use all upper case characters with underscore as the word separator. The third variable should use numbers, letters, and underscore, but still be a valid variable Python variable name.
@@ -151,7 +150,7 @@ Four columns, fifteen characters wide, a header column, data centered in the col
 
 - [ ] 4. Create a show_version variable that contains the following
 
-     show_version = "\*0        CISCO881-SEC-K9       FTX0000038X    "
+        show_version = "\*0        CISCO881-SEC-K9       FTX0000038X    "
 
     Remove all leading and trailing whitespace from the string.
 
@@ -165,15 +164,16 @@ Four columns, fifteen characters wide, a header column, data centered in the col
 
 
 
-5. You have the following three variables from the arp table of a router:
+- [ ] 5. You have the following three variables from the arp table of a router:
 
-mac1 = "Internet  10.220.88.29           94   5254.abbe.5b7b  ARPA   FastEthernet4"
-mac2 = "Internet  10.220.88.30            3   5254.ab71.e119  ARPA   FastEthernet4"
-mac3 = "Internet  10.220.88.32          231   5254.abc7.26aa  ARPA   FastEthernet4"
+        mac1 = "Internet  10.220.88.29           94   5254.abbe.5b7b  ARPA   FastEthernet4"
+        mac2 = "Internet  10.220.88.30            3   5254.ab71.e119  ARPA   FastEthernet4"
+        mac3 = "Internet  10.220.88.32          231   5254.abc7.26aa  ARPA   FastEthernet4"
 
 Process these ARP entries and print out a table of "IP ADDR" to "MAC ADDRESS" mappings. The output should look like following:
 
              IP ADDR|          MAC ADDRESS
+
 --------------------| --------------------
 
         10.220.88.29|       5254.abbe.5b7b
@@ -185,133 +185,117 @@ Process these ARP entries and print out a table of "IP ADDR" to "MAC ADDRESS" ma
 Two columns, 20 characters wide, data right aligned, a header column.
  
 
-
- 
-
 # CLASS OUTLINE
 
 1. Introduction (VIDEO1)
-
-   A. Purpose of the course  [0:11]
-   B. Who is this video series for?  [0:33]
-   C. About me  [2:51]
-   D. Course logistics  [3:29]
-   E. Apply what you learn  [4:23]
-   F. Context for the exercises  [4:49]
+   * Purpose of the course  [0:11]
+   * Who is this video series for?  [0:33]
+   * About me  [2:51]
+   * Course logistics  [3:29]
+   * Apply what you learn  [4:23]
+   * Context for the exercises  [4:49]
 
 2. Why Learn Programming? (VIDEO2)
-
-   A. Programming as a power skill  [0:10]
-   B. Still need to retain core engineering skills  [0:20]
-   C. Automation is major trend in our industry  [0:30]
-   D. Range of potential programming skills  [0:54]
+   * Programming as a power skill  [0:10]
+   * Still need to retain core engineering skills  [0:20]
+   * Automation is major trend in our industry  [0:30]
+   * Range of potential programming skills  [0:54]
 
 3. Why Python? (VIDEO3)
-
-   A. Large, active community  [0:20]
-      1. Libraries                                               
-      2. Learning resources                                      
-      3. People you can ask questions to                         
-   B. High-level language  [1:29]
-   C. Widely available on systems  [1:53]
-   D. Readability  [2:05]
-   E. Supports beginners through advanced programmers  [2:33]
+   * Large, active community  [0:20]
+      * Libraries                                               
+      * Learning resources                                      
+      * People you can ask questions to                         
+   * High-level language  [1:29]
+   * Widely available on systems  [1:53]
+   * Readability  [2:05]
+   * Supports beginners through advanced programmers  [2:33]
 
 4. Python2 versus Python3? (VIDEO4)
-
-   A. What should network engineers do (as of today)?  [1:20]
+   * What should network engineers do (as of today)?  [1:20]
 
 5. Characteristics of Python (VIDEO5)
-
-   A. Blocks of code are indicated by indentation  [0:13]
-   B. Python conventions  [2:02]
+   1. Blocks of code are indicated by indentation  [0:13]
+   2. Python conventions  [2:02]
       1. Follow the Python conventions (PEP8)   [2:12]                   
-   C. What is Python like as a language?  [3:20]
-   D. High-level language  [3:58]
+   3. What is Python like as a language?  [3:20]
+   4. High-level language  [3:58]
       1. Dynamically typed variables  [4:12]
 
 6. The Python Interpreter Shell (VIDEO6)
-
-   A. Launch the interpreter shell  [0:05]
-   B. Running python 3.6.2  [0:33]
-   C. Creating a variable  [1:00]
+   1. Launch the interpreter shell  [0:05]
+   2. Running python 3.6.2  [0:33]
+   3. Creating a variable  [1:00]
       1. Variable naming conventions  [1:17]
-   D. Using type  [1:43]
-   E. Characters allowed in variable names  [2:08]
+   4. Using type  [1:43]
+   5. Characters allowed in variable names  [2:08]
       1. Upper case / lower case / numbers  [2:23]
       2. Can’t start with a number  [2:36]
       3. Can start with an underscore  [2:47]
-   F. Automatic evaluation of expressions  [3:42]
-   G. First Python program  [4:15]
-   H. Printing to standard output  [5:21]
-   I. Making the program executable at the system level  [6:22]
-   J. Editing and Editors (to create Python programs)  [8:30]
-   K. IDEs  [8:53]
+   6. Automatic evaluation of expressions  [3:42]
+   7. First Python program  [4:15]
+   8. Printing to standard output  [5:21]
+   9. Making the program executable at the system level  [6:22]
+   10. Editing and Editors (to create Python programs)  [8:30]
+   11. IDEs  [8:53]
 
 7. IPython (VIDEO7)
-
-   A. Launching IPython  [0:13]
+   1. Launching IPython  [0:13]
       1. Better formatting  [0:47]
       2. History buffer / improved history  [1:13]
       3. Command completion  [1:40]
-   B. Installing IPython  [2:30]
-      C. More on variable names  [3:00]
-      D. Comments  [3:28]
+   2. Installing IPython  [2:30]
+      1. More on variable names  [3:00]
+      2. Comments  [3:28]
 
 8. Printing to stdout / Reading from stdin (VIDEO8)
-
-   A. print() in Python3  [0:14]
+   1. print() in Python3  [0:14]
       1. Differences in Python2  [1:00]
       2. Writing PY2 and PY3 compatible code  [1:41]
-   B. Python3 reading from stdin (input)  [2:43]
+   2. Python3 reading from stdin (input)  [2:43]
       1. Differences in Python2  [3:31]
       2. Writing PY2 and PY3 compatible code  [4:18]
   
 9. Dir, Help, and Variables (VIDEO9)
-
-   A. Using dir()  [0:24]
-   B. Calling methods versus referring to methods  [0:55]
+   1. Using dir()  [0:24]
+   2. Calling methods versus referring to methods  [0:55]
       1. Examples calling various string methods  [2:16]
       2. Chaining methods  [2:39]
-   C. Using help()  [3:34]
-   D. Assignment operator  [5:44]
-   E. Variables as references to objects  [6:10]
+   3. Using help()  [3:34]
+   4. Assignment operator  [5:44]
+   5. Variables as references to objects  [6:10]
       1. Using id()  [6:16]
       2. Two names that refer to the same thing  [7:17]
       3. Reassigning a name to a different object  [8:40]
 
 10. Strings (Part1) (VIDEO10)
-
-    A. Fundamental Difference between Python2 and Python3  [0:30]
-    B. String in Python2 is an ASCII string  [1:10]
-    C. String in Python3 is a Unicode string  [1:59]
-    D. How to write Unicode strings in Python2  [2:08]
-    E. How to write byte strings in Python3  [3:23]
-    F. Technique for making all string literals unicode  [3:46]
+    1. Fundamental Difference between Python2 and Python3  [0:30]
+    2. String in Python2 is an ASCII string  [1:10]
+    3. String in Python3 is a Unicode string  [1:59]
+    4. How to write Unicode strings in Python2  [2:08]
+    5. How to write byte strings in Python3  [3:23]
+    6. Technique for making all string literals unicode  [3:46]
 
 11. Strings (Part2) (VIDEO11)
-
-    A. Comparison Operators  [0:30]
-    B. Substring in broader string  [2:16]
-    C. String indexes  [3:51]
-    D. len() function  [4:50]
-    E. String concatenation  [5:14]
-    F. Binary and hex representations of strings  [6:43]
+    1. Comparison Operators  [0:30]
+    2. Substring in broader string  [2:16]
+    3. String indexes  [3:51]
+    4. len() function  [4:50]
+    5. String concatenation  [5:14]
+    6. Binary and hex representations of strings  [6:43]
 
 12. Strings (Part3) (VIDEO12)
-
-    A. Raw Strings  [1:04]
-    B. Assigning strings (single, double, triple quotes) [1:44]
-    C. repr() of a string  [3:32]
-    D. String methods  [4:21]
+    1. Raw Strings  [1:04]
+    2. Assigning strings (single, double, triple quotes) [1:44]
+    3. repr() of a string  [3:32]
+    4. String methods  [4:21]
        1. strip()  [4:34]
        2. split()  [6:04]
        3. splitlines()  [9:15]
 
 13. String Formatting (Part1) (VIDEO13)
-
-    A. Replicating a string  [1:12]
-    B. Format Method  [1:35]
+    1. Replicating a string  [1:12]
+    2. Format Method  [1:35]
        1. Calling with positional arguments  [2:00]
        2. Specifying field width  [2:59]
        3. Right aligned, centered  [3:21]
@@ -319,6 +303,5 @@ Two columns, 20 characters wide, data right aligned, a header column.
        5. Using \*args to pass in a list  [10:50]
 
 14. String Formatting (Part2) (VIDEO14)
-
-    A. Using the format operator (%)  [0:25]
-    B. F-strings  [1:41]
+    1. Using the format operator (%)  [0:25]
+    2. F-strings  [1:41]
