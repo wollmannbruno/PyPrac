@@ -1,74 +1,73 @@
-# ﻿In this email of Learning Python we are going to cover the following:
- 
+# In this email of Learning Python we are going to cover the following:
+
 - [x] Introduction 
 Video https://vimeo.com/243034300
 Length is 7 minutes
- 
+
 
 - [x] Why Learn Programing?
 Video https://vimeo.com/243905715
 Length is 1 minute
- 
+
 
 - [x] Why Python?
 Video https://vimeo.com/243909371
 Length is 3 minutes
- 
+
 
 - [x] Python2 versus Python3
 Video https://vimeo.com/243912631
 Length is 2 minutes
- 
+
 
 - [x] Characteristics of Python
 Video https://vimeo.com/243918300
 Length is 5 minutes
- 
+
 
 - [x] The Python Interpreter Shell
 Video https://vimeo.com/242411259
 Length is 9 minutes
- 
+
 
 - [x] IPython
 Video https://vimeo.com/242460561
 Length is 4 minutes
- 
+
 
 - [x] Printing to stdout and Reading from stdin
 Video https://vimeo.com/243028886
 Length is 6 minutes
- 
+
 
 - [x] Dir, Help, and Variables​
 Video https://vimeo.com/243480156
 Length is 10 minutes
- 
+
 
 - [ ] Python Strings (Part 1)
 Video https://vimeo.com/243481392
 Length is 6 minutes
- 
+
 
 - [ ] Python Strings (Part 2)
 Video https://vimeo.com/243482081
 Length is 8 minutes
- 
+
 
 - [ ] Python Strings (Part 3)
 Video https://vimeo.com/243482871
 Length is 10 minutes
- 
+
 
 - [ ] Python String Formatting (Part 1)
 Video https://vimeo.com/243936489
 Length is 12 minutes
- 
+
 
 - [ ] Python String Formatting (Part 2)
 Video https://vimeo.com/243956669
 Length is 4 minutes 
-
 
 
 # Additional Content:
@@ -80,30 +79,26 @@ Length is 4 minutes
 *Read up through the section on .join() and .split() string methods.*
 
 
-
 1. Python naming conventions:
 
     a. For variable names, function names, object names, and module names use lower case separated by underscore, for example:
 
-      my_router
-      find_set_of_devices
-      convert_id_string_to_list
+        my_router
+        find_set_of_devices
+        convert_id_string_to_list
 
     b. For class names, capitalize the first letter of each word.  Do not use any underscores.  For example:
 
-      ManyToManyField
-      ClientHistory
-      UserProfile﻿﻿﻿
+        ManyToManyField
+        ClientHistory
+        UserProfile﻿﻿﻿
 
     c. For constants, use all upper case; use underscores for word separation.
 
-      PI = 3.14
-      EMAIL_MODE
-      EMAIL_FROM_ADDRESS
- 
+        PI = 3.14
+        EMAIL_MODE
+        EMAIL_FROM_ADDRESS
 
-
- 
 
 # Exercises
 
@@ -115,24 +110,28 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson1
 
 - [ ] 1. Create a Python script that has three variables: ip_addr1, ip_addr2, ip_addr3 (representing three corresponding IP addresses). Print these three variables to standard output using a single print statement.
 
-Make your print statement compatible with both Python2 and Python3.
+    Make your print statement compatible with both Python2 and Python3.
 
-If you are using either Linux or MacOS make your program executable by adding a shebang line and by changing the files permissions (i.e. chmod 755 exercise1.py).
+    If you are using either Linux or MacOS make your program executable by adding a shebang line and by changing the files permissions (i.e. chmod 755 exercise1.py).
 
 
 
 - [ ] 2. Prompt a user to enter in an IP address from standard input. Read the IP address in and break it up into its octets. Print out the octets in decimal, binary, and hex.
 
-Your program output should look like the following:
+    Your program output should look like the following:
 
 ​ $ python exercise2.py 
 Please enter an IP address: 80.98.100.240
 
     Octet1     |    Octet2     |    Octet3     |    Octet4     
 ---------------|---------------|---------------|---------------
-      80       |      98       |      100      |      240      
-   0b1010000   |   0b1100010   |   0b1100100   |  0b11110000   
-     0x50      |     0x62      |     0x64      |     0xf0      
+
+      80       |      98       |      100      |      240
+
+   0b1010000   |   0b1100010   |   0b1100100   |  0b11110000
+
+     0x50      |     0x62      |     0x64      |     0xf0
+
 ---------------|---------------|---------------|---------------
 
 Four columns, fifteen characters wide, a header column, data centered in the column.
@@ -141,28 +140,28 @@ Four columns, fifteen characters wide, a header column, data centered in the col
 
 - [ ] 3. Create three different variables the first variable should use all lower case characters with underscore ( _ ) as the word separator. The second variable should use all upper case characters with underscore as the word separator. The third variable should use numbers, letters, and underscore, but still be a valid variable Python variable name.
 
-Make all three variables be strings that refer to IPv6 addresses.
+    Make all three variables be strings that refer to IPv6 addresses.
 
-Use the from future technique so that any string literals in Python2 are unicode.
+    Use the from future technique so that any string literals in Python2 are unicode.
 
-compare if variable1 equals variable2
-compare if variable1 is not equal to variable3
+    compare if variable1 equals variable2
+    compare if variable1 is not equal to variable3
 
 
 
 - [ ] 4. Create a show_version variable that contains the following
 
- show_version = "\*0        CISCO881-SEC-K9       FTX0000038X    " 
+     show_version = "\*0        CISCO881-SEC-K9       FTX0000038X    "
 
-Remove all leading and trailing whitespace from the string.
+    Remove all leading and trailing whitespace from the string.
 
-Split the string and extract the model and serial_number from it.
+    Split the string and extract the model and serial_number from it.
 
-Check if 'Cisco' is contained in the model string (ignore capitalization).
+    Check if 'Cisco' is contained in the model string (ignore capitalization).
 
-Check if '881' is in the model string.
+    Check if '881' is in the model string.
 
-Print out both the serial number and the model.
+    Print out both the serial number and the model.
 
 
 
@@ -176,8 +175,11 @@ Process these ARP entries and print out a table of "IP ADDR" to "MAC ADDRESS" ma
 
              IP ADDR|          MAC ADDRESS
 --------------------| --------------------
+
         10.220.88.29|       5254.abbe.5b7b
+
         10.220.88.30|       5254.ab71.e119
+
         10.220.88.32|       5254.abc7.26aa
 
 Two columns, 20 characters wide, data right aligned, a header column.
@@ -189,6 +191,7 @@ Two columns, 20 characters wide, data right aligned, a header column.
 # CLASS OUTLINE
 
 1. Introduction (VIDEO1)
+
    A. Purpose of the course  [0:11]
    B. Who is this video series for?  [0:33]
    C. About me  [2:51]
@@ -197,12 +200,14 @@ Two columns, 20 characters wide, data right aligned, a header column.
    F. Context for the exercises  [4:49]
 
 2. Why Learn Programming? (VIDEO2)
+
    A. Programming as a power skill  [0:10]
    B. Still need to retain core engineering skills  [0:20]
    C. Automation is major trend in our industry  [0:30]
    D. Range of potential programming skills  [0:54]
 
 3. Why Python? (VIDEO3)
+
    A. Large, active community  [0:20]
       1. Libraries                                               
       2. Learning resources                                      
@@ -213,9 +218,11 @@ Two columns, 20 characters wide, data right aligned, a header column.
    E. Supports beginners through advanced programmers  [2:33]
 
 4. Python2 versus Python3? (VIDEO4)
+
    A. What should network engineers do (as of today)?  [1:20]
 
 5. Characteristics of Python (VIDEO5)
+
    A. Blocks of code are indicated by indentation  [0:13]
    B. Python conventions  [2:02]
       1. Follow the Python conventions (PEP8)   [2:12]                   
@@ -223,7 +230,8 @@ Two columns, 20 characters wide, data right aligned, a header column.
    D. High-level language  [3:58]
       1. Dynamically typed variables  [4:12]
 
-6. The Python Interpreter Shell VIDEO6)
+6. The Python Interpreter Shell (VIDEO6)
+
    A. Launch the interpreter shell  [0:05]
    B. Running python 3.6.2  [0:33]
    C. Creating a variable  [1:00]
@@ -241,6 +249,7 @@ Two columns, 20 characters wide, data right aligned, a header column.
    K. IDEs  [8:53]
 
 7. IPython (VIDEO7)
+
    A. Launching IPython  [0:13]
       1. Better formatting  [0:47]
       2. History buffer / improved history  [1:13]
@@ -250,6 +259,7 @@ Two columns, 20 characters wide, data right aligned, a header column.
       D. Comments  [3:28]
 
 8. Printing to stdout / Reading from stdin (VIDEO8)
+
    A. print() in Python3  [0:14]
       1. Differences in Python2  [1:00]
       2. Writing PY2 and PY3 compatible code  [1:41]
@@ -258,6 +268,7 @@ Two columns, 20 characters wide, data right aligned, a header column.
       2. Writing PY2 and PY3 compatible code  [4:18]
   
 9. Dir, Help, and Variables (VIDEO9)
+
    A. Using dir()  [0:24]
    B. Calling methods versus referring to methods  [0:55]
       1. Examples calling various string methods  [2:16]
@@ -270,6 +281,7 @@ Two columns, 20 characters wide, data right aligned, a header column.
       3. Reassigning a name to a different object  [8:40]
 
 10. Strings (Part1) (VIDEO10)
+
     A. Fundamental Difference between Python2 and Python3  [0:30]
     B. String in Python2 is an ASCII string  [1:10]
     C. String in Python3 is a Unicode string  [1:59]
@@ -278,6 +290,7 @@ Two columns, 20 characters wide, data right aligned, a header column.
     F. Technique for making all string literals unicode  [3:46]
 
 11. Strings (Part2) (VIDEO11)
+
     A. Comparison Operators  [0:30]
     B. Substring in broader string  [2:16]
     C. String indexes  [3:51]
@@ -286,6 +299,7 @@ Two columns, 20 characters wide, data right aligned, a header column.
     F. Binary and hex representations of strings  [6:43]
 
 12. Strings (Part3) (VIDEO12)
+
     A. Raw Strings  [1:04]
     B. Assigning strings (single, double, triple quotes) [1:44]
     C. repr() of a string  [3:32]
@@ -295,6 +309,7 @@ Two columns, 20 characters wide, data right aligned, a header column.
        3. splitlines()  [9:15]
 
 13. String Formatting (Part1) (VIDEO13)
+
     A. Replicating a string  [1:12]
     B. Format Method  [1:35]
        1. Calling with positional arguments  [2:00]
@@ -304,5 +319,6 @@ Two columns, 20 characters wide, data right aligned, a header column.
        5. Using \*args to pass in a list  [10:50]
 
 14. String Formatting (Part2) (VIDEO14)
+
     A. Using the format operator (%)  [0:25]
     B. F-strings  [1:41]
