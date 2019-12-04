@@ -1,12 +1,12 @@
 # In this email of Learning Python we are going to cover the following:
 
 - [x] Introduction 
-Video https://vimeo.com/243034300
+Video <a href="https://vimeo.com/243034300" target="_blank" rel="noopener">https://vimeo.com/243034300</a>
 Length is 7 minutes
 
 
 - [x] Why Learn Programing?
-Video https://vimeo.com/243905715
+Video <a href="https://vimeo.com/243905715" target="_blank" rel="noopener">https://vimeo.com/243905715</a>
 Length is 1 minute
 
 
@@ -45,27 +45,27 @@ Video https://vimeo.com/243480156
 Length is 10 minutes
 
 
-- [ ] Python Strings (Part 1)
+- [x] Python Strings (Part 1)
 Video https://vimeo.com/243481392
 Length is 6 minutes
 
 
-- [ ] Python Strings (Part 2)
+- [x] Python Strings (Part 2)
 Video https://vimeo.com/243482081
 Length is 8 minutes
 
 
-- [ ] Python Strings (Part 3)
+- [x] Python Strings (Part 3)
 Video https://vimeo.com/243482871
 Length is 10 minutes
 
 
-- [ ] Python String Formatting (Part 1)
+- [x] Python String Formatting (Part 1)
 Video https://vimeo.com/243936489
 Length is 12 minutes
 
 
-- [ ] Python String Formatting (Part 2)
+- [x] Python String Formatting (Part 2)
 Video https://vimeo.com/243956669
 Length is 4 minutes 
 
@@ -119,7 +119,7 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson1
 
     Your program output should look like the following:
 
-    $ python exercise2.py 
+    $ python exercise2.py
 
 Please enter an IP address: 80.98.100.240
 
@@ -144,7 +144,7 @@ Four columns, fifteen characters wide, a header column, data centered in the col
 
 - [ ] 4. Create a show_version variable that contains the following
 
-        show_version = "\*0        CISCO881-SEC-K9       FTX0000038X    "
+        show_version = "*0        CISCO881-SEC-K9       FTX0000038X    "
 
     Remove all leading and trailing whitespace from the string.
 
