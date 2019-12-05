@@ -1,12 +1,12 @@
 # In this email of Learning Python we are going to cover the following:
 
 - [x] Introduction 
-Video <a href="https://vimeo.com/243034300" target="_blank" rel="noopener">https://vimeo.com/243034300</a>
+Video https://vimeo.com/243034300
 Length is 7 minutes
 
 
 - [x] Why Learn Programing?
-Video <a href="https://vimeo.com/243905715" target="_blank" rel="noopener">https://vimeo.com/243905715</a>
+Video https://vimeo.com/243905715
 Length is 1 minute
 
 
@@ -89,7 +89,7 @@ Length is 4 minutes
 
     2. For class names, capitalize the first letter of each word.  Do not use any underscores.  For example:
 
-            ManyToMa    nyField
+            ManyToManyField
             ClientHistory
             UserProfile﻿﻿﻿
 
@@ -108,7 +108,7 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson1
 
 
 
-- [ ] 1. Create a Python script that has three variables: ip_addr1, ip_addr2, ip_addr3 (representing three corresponding IP addresses). Print these three variables to standard output using a single print statement.
+- [x] 1. Create a Python script that has three variables: ip_addr1, ip_addr2, ip_addr3 (representing three corresponding IP addresses). Print these three variables to standard output using a single print statement.
 
     Make your print statement compatible with both Python2 and Python3.
 
