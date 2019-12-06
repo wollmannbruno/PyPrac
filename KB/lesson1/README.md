@@ -159,7 +159,7 @@ Four columns, fifteen characters wide, a header column, data centered in the col
 
 
 
-- [ ] 5. You have the following three variables from the arp table of a router:
+- [x] 5. You have the following three variables from the arp table of a router:
 
         mac1 = "Internet  10.220.88.29           94   5254.abbe.5b7b  ARPA   FastEthernet4"
         mac2 = "Internet  10.220.88.30            3   5254.ab71.e119  ARPA   FastEthernet4"
