@@ -115,7 +115,7 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson1
     If you are using either Linux or MacOS make your program executable by adding a shebang line and by changing the files permissions (i.e. chmod 755 exercise1.py).
 
 
-- [ ] 2. Prompt a user to enter in an IP address from standard input. Read the IP address in and break it up into its octets. Print out the octets in decimal, binary, and hex.
+- [x] 2. Prompt a user to enter in an IP address from standard input. Read the IP address in and break it up into its octets. Print out the octets in decimal, binary, and hex.
 
     Your program output should look like the following:
 
@@ -132,13 +132,14 @@ Octet1 | Octet2 | Octet3 | Octet4
 Four columns, fifteen characters wide, a header column, data centered in the column.
 
 
-- [ ] 3. Create three different variables the first variable should use all lower case characters with underscore ( _ ) as the word separator. The second variable should use all upper case characters with underscore as the word separator. The third variable should use numbers, letters, and underscore, but still be a valid variable Python variable name.
+- [x] 3. Create three different variables the first variable should use all lower case characters with underscore ( _ ) as the word separator. The second variable should use all upper case characters with underscore as the word separator. The third variable should use numbers, letters, and underscore, but still be a valid variable Python variable name.
 
     Make all three variables be strings that refer to IPv6 addresses.
 
     Use the from future technique so that any string literals in Python2 are unicode.
 
     compare if variable1 equals variable2
+    
     compare if variable1 is not equal to variable3
 
 
