@@ -6,6 +6,7 @@ octets = ip_addr.split('.')
 octets_bin = []
 octets_hex = []
 
+# for loop not introduced in course yet, but decided to use it anyway
 for x in octets:
 	octets_bin.append(bin(int(x)))
 	octets_hex.append(hex(int(x)))
