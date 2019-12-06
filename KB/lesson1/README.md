@@ -115,7 +115,7 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson1
     If you are using either Linux or MacOS make your program executable by adding a shebang line and by changing the files permissions (i.e. chmod 755 exercise1.py).
 
 
-- [ ] 2. Prompt a user to enter in an IP address from standard input. Read the IP address in and break it up into its octets. Print out the octets in decimal, binary, and hex.
+- [x] 2. Prompt a user to enter in an IP address from standard input. Read the IP address in and break it up into its octets. Print out the octets in decimal, binary, and hex.
 
     Your program output should look like the following:
 
