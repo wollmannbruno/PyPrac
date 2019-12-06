@@ -143,7 +143,7 @@ Four columns, fifteen characters wide, a header column, data centered in the col
     compare if variable1 is not equal to variable3
 
 
-- [ ] 4. Create a show_version variable that contains the following
+- [x] 4. Create a show_version variable that contains the following
 
         show_version = "*0        CISCO881-SEC-K9       FTX0000038X    "
 
