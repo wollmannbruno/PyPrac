@@ -60,7 +60,7 @@ Close the file.
 Open the file a second time using a Python context manager (with statement). Read in the file contents using the .readlines() method. Print out the file contents to the screen. Also print out the type of the variable (you should have a list at this point).
 
 
-- [ ] 2. Create a list of five IP addresses.
+- [x] 2. Create a list of five IP addresses.
 
 Use the .append() method to add an IP address onto the end of the list. Use the .extend() method to add two more IP addresses to the end of the list.
 
