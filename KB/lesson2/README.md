@@ -1,49 +1,49 @@
 # Lesson2 / Numbers, Files, Lists, and Linters
 
-- [ ] Numbers
+- [x] Numbers
 Video https://vimeo.com/244128549
 Length is 9 minutes
  
-- [ ] Files
+- [x] Files
 Video https://vimeo.com/244127459
 Length is 10 minutes
  
-- [ ] Lists
+- [x] Lists
 Video https://vimeo.com/244257596
 Length is 6 minutes
  
-- [ ] List Slices
+- [x] List Slices
 Video https://vimeo.com/244259492
 Length is 4 minutes  
  
-- [ ] Lists are Mutable
+- [x] Lists are Mutable
 Video https://vimeo.com/244287000
 Length is 5 minutes
  
-- [ ] Tuples
+- [x] Tuples
 Video https://vimeo.com/244153105
 Length is 3 minutes
  
-- [ ] Using .join()
+- [x] Using .join()
 ​Video https://vimeo.com/245464488
 Length is 3 minutes
  
-- [ ] sys.argv
+- [x] sys.argv
 Video https://vimeo.com/245464766
 Length is 2 minutes
  
-- [ ] Linters
+- [x] Linters
 Video https://vimeo.com/245102246
 Length is 6 minutes
 
 
 # Additional Content:
 
-[Automate the Boring Stuff with Python (Chapter 4 on Strings)](https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiNDI1NDQ5NyIsImRlbGl2ZXJ5X2lkIjoiY3k3eThpZGRsNmQ1OTFnbXg0cG4iLCJ1cmwiOiJodHRwczovL2F1dG9tYXRldGhlYm9yaW5nc3R1ZmYuY29tL2NoYXB0ZXI0Lz9fX3M9OGN2cHNtd2pwc3ZuZjI4eXR3Z2EifQ)
+- [x] [Automate the Boring Stuff with Python (Chapter 4 on Strings)](https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiNDI1NDQ5NyIsImRlbGl2ZXJ5X2lkIjoiY3k3eThpZGRsNmQ1OTFnbXg0cG4iLCJ1cmwiOiJodHRwczovL2F1dG9tYXRldGhlYm9yaW5nc3R1ZmYuY29tL2NoYXB0ZXI0Lz9fX3M9OGN2cHNtd2pwc3ZuZjI4eXR3Z2EifQ)
 
 *Up through the section named "Removing Values from Lists with del Statements"*
 
-[Dive Into Python, Lists](https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiNDI1NDQ5NyIsImRlbGl2ZXJ5X2lkIjoiY3k3eThpZGRsNmQ1OTFnbXg0cG4iLCJ1cmwiOiJodHRwczovL3d3dy5kaXZlaW50by5vcmcvcHl0aG9uMy9uYXRpdmUtZGF0YXR5cGVzLmh0bWw_X19zPThjdnBzbXdqcHN2bmYyOHl0d2dhI2xpc3RzIn0)
+- [x] [Dive Into Python, Lists](https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiNDI1NDQ5NyIsImRlbGl2ZXJ5X2lkIjoiY3k3eThpZGRsNmQ1OTFnbXg0cG4iLCJ1cmwiOiJodHRwczovL3d3dy5kaXZlaW50by5vcmcvcHl0aG9uMy9uYXRpdmUtZGF0YXR5cGVzLmh0bWw_X19zPThjdnBzbXdqcHN2bmYyOHl0d2dhI2xpc3RzIn0)
 
 
 # Exercises
@@ -53,7 +53,7 @@ Reference code for these exercises is posted on GitHub at:
 
 
 
-- [ ] 1. Open the "show_version.txt" file for reading. Use the .read() method to read in the entire file contents to a variable. Print out the file contents to the screen. Also print out the type of the variable (you should have a string at this point).
+- [x] 1. Open the "show_version.txt" file for reading. Use the .read() method to read in the entire file contents to a variable. Print out the file contents to the screen. Also print out the type of the variable (you should have a string at this point).
 
 Close the file.
 
