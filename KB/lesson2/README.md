@@ -73,7 +73,7 @@ Using the .pop() method to remove the first IP address in the list and the last 
 Update the new first IP address in the list to be '2.2.2.2'. Print out the new first IP address in the list.
 
 
-- [ ] 3. Read in the "show_arp.txt" file using the readlines() method. Use a list slice to remove the header line.
+- [x] 3. Read in the "show_arp.txt" file using the readlines() method. Use a list slice to remove the header line.
 
 Use pretty print to print out the resulting list to the screen, syntax is:
 from pprint import pprint
