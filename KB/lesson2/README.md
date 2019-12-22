@@ -88,7 +88,7 @@ Use the .join() method to join these first three ARP entries back together as a 
 Write this string containing the three ARP entries out to a file named "arp_entries.txt".
 
 
-- [ ] 4. Read in the "show_ip_int_brief.txt" file into your program using the .readlines() method.
+- [x] 4. Read in the "show_ip_int_brief.txt" file into your program using the .readlines() method.
 
 Obtain the list entry associated with the FastEthernet4 interface. You can just hard-code the index at this point since we haven't covered for-loops or regular expressions. Use the string .split() method to obtain both the IP address and the corresponding interface associated with the IP.
 
