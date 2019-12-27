@@ -1,41 +1,41 @@
 # Lesson3 / Conditionals and Loops
 
-- [ ] Conditionals
+- [x] Conditionals
 Video https://vimeo.com/245104620
 Length is 8 minutes
  
-- [ ] Boolean Logic (Booleans, Ternary Operator, None)
+- [x] Boolean Logic (Booleans, Ternary Operator, None)
 Video https://vimeo.com/245112558
 Length is 8 minutes
  
-- [ ] Python For Loops
+- [x] Python For Loops
 Video https://vimeo.com/245466297
 Length is 5 minutes
  
-- [ ] For Loops (Enumerate)​
+- [x] For Loops (Enumerate)​
 Video https://vimeo.com/245477015
 Length is 6 minutes
  
-- [ ] For Loops (Break and Continue)
+- [x] For Loops (Break and Continue)
 Video https://vimeo.com/245478016
 Length is 9 minutes
  
-- [ ] While Loops
+- [x] While Loops
 Video https://vimeo.com/245545155
 Length is 5 minutes
  
-- [ ] Loops Miscellaneous
+- [x] Loops Miscellaneous
 Video https://vimeo.com/245552604
 Length is 6 minutes
 
 
 # Additional Content:
 
-- [ ] [How To Write Conditional Statements in Python 3​​](https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiNDI1NDQ5NyIsImRlbGl2ZXJ5X2lkIjoiOXh5OHZzdDFqcHFmNW5qZHl5cXQiLCJ1cmwiOiJodHRwczovL3d3dy5kaWdpdGFsb2NlYW4uY29tL2NvbW11bml0eS90dXRvcmlhbHMvaG93LXRvLXdyaXRlLWNvbmRpdGlvbmFsLXN0YXRlbWVudHMtaW4tcHl0aG9uLTMtMj9fX3M9OGN2cHNtd2pwc3ZuZjI4eXR3Z2EifQ)
+- [x] [How To Write Conditional Statements in Python 3​​](https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiNDI1NDQ5NyIsImRlbGl2ZXJ5X2lkIjoiOXh5OHZzdDFqcHFmNW5qZHl5cXQiLCJ1cmwiOiJodHRwczovL3d3dy5kaWdpdGFsb2NlYW4uY29tL2NvbW11bml0eS90dXRvcmlhbHMvaG93LXRvLXdyaXRlLWNvbmRpdGlvbmFsLXN0YXRlbWVudHMtaW4tcHl0aG9uLTMtMj9fX3M9OGN2cHNtd2pwc3ZuZjI4eXR3Z2EifQ)
 
-- [ ] [How To Construct For Loops in Python 3](https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiNDI1NDQ5NyIsImRlbGl2ZXJ5X2lkIjoiOXh5OHZzdDFqcHFmNW5qZHl5cXQiLCJ1cmwiOiJodHRwczovL3d3dy5kaWdpdGFsb2NlYW4uY29tL2NvbW11bml0eS90dXRvcmlhbHMvaG93LXRvLWNvbnN0cnVjdC1mb3ItbG9vcHMtaW4tcHl0aG9uLTM_X19zPThjdnBzbXdqcHN2bmYyOHl0d2dhIn0)
+- [x] [How To Construct For Loops in Python 3](https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiNDI1NDQ5NyIsImRlbGl2ZXJ5X2lkIjoiOXh5OHZzdDFqcHFmNW5qZHl5cXQiLCJ1cmwiOiJodHRwczovL3d3dy5kaWdpdGFsb2NlYW4uY29tL2NvbW11bml0eS90dXRvcmlhbHMvaG93LXRvLWNvbnN0cnVjdC1mb3ItbG9vcHMtaW4tcHl0aG9uLTM_X19zPThjdnBzbXdqcHN2bmYyOHl0d2dhIn0)
 
-- [ ] [How To Construct While Loops in Python 3](https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiNDI1NDQ5NyIsImRlbGl2ZXJ5X2lkIjoiOXh5OHZzdDFqcHFmNW5qZHl5cXQiLCJ1cmwiOiJodHRwczovL3d3dy5kaWdpdGFsb2NlYW4uY29tL2NvbW11bml0eS90dXRvcmlhbHMvaG93LXRvLWNvbnN0cnVjdC13aGlsZS1sb29wcy1pbi1weXRob24tMz9fX3M9OGN2cHNtd2pwc3ZuZjI4eXR3Z2EifQ)
+- [x] [How To Construct While Loops in Python 3](https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiNDI1NDQ5NyIsImRlbGl2ZXJ5X2lkIjoiOXh5OHZzdDFqcHFmNW5qZHl5cXQiLCJ1cmwiOiJodHRwczovL3d3dy5kaWdpdGFsb2NlYW4uY29tL2NvbW11bml0eS90dXRvcmlhbHMvaG93LXRvLWNvbnN0cnVjdC13aGlsZS1sb29wcy1pbi1weXRob24tMz9fX3M9OGN2cHNtd2pwc3ZuZjI4eXR3Z2EifQ)
 
 
 # Exercises
@@ -44,7 +44,7 @@ Reference code for these exercises is posted on GitHub at:
 https://github.com/ktbyers/pynet/tree/master/learning_python/lesson3
 
 
-- [ ] 1. Read the "show_vlan.txt" file into your program. Loop through the lines in this file and extract all of the VLAN_ID, VLAN_NAME combinations. From these VLAN_ID and VLAN_NAME construct a new list where each element in the list is a tuple consisting of (VLAN_ID, VLAN_NAME). Print this data structure to the screen. Your output should look as follows:
+- [x] 1. Read the "show_vlan.txt" file into your program. Loop through the lines in this file and extract all of the VLAN_ID, VLAN_NAME combinations. From these VLAN_ID and VLAN_NAME construct a new list where each element in the list is a tuple consisting of (VLAN_ID, VLAN_NAME). Print this data structure to the screen. Your output should look as follows:
 [('1', 'default'),
  ('400', 'blue400'),
  ('401', 'blue401'),
