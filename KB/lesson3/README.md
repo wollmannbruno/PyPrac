@@ -51,7 +51,7 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson3
  ('402', 'blue402'),
  ('403', 'blue403')]
 
-- [ ] 2. Read the contents of the "show_arp.txt" file. Using a for loop, iterate over the lines of this file. Process the lines of the file and separate out the ip_addr and mac_addr for each entry into a separate variable.
+- [x] 2. Read the contents of the "show_arp.txt" file. Using a for loop, iterate over the lines of this file. Process the lines of the file and separate out the ip_addr and mac_addr for each entry into a separate variable.
 
 Add a conditional statement that searches for '10.220.88.1'. If 10.220.88.1 is found, print out the string "Default gateway IP/Mac" and the corresponding IP address and MAC Address.
 
