@@ -63,7 +63,7 @@ Keep track of whether you have found both the Default Gateway and the Arista3 sw
 - [x] 3.  Read the 'show_lldp_neighbors_detail.txt' file. Loop over the lines of this file. Keep reading the lines until you have encountered the remote "System Name" and remote "Port id". Save these two items into variables and print them to the screen. You should extract only the system name and port id from the lines (i.e. your variables should only have 'twb-sf-hpsw1' and '15'). Break out of your loop once you have retrieved these two items.
 
 
-- [ ] 4. You have the following data structure:
+- [x] 4. You have the following data structure:
 arp_table = [('10.220.88.1', '0062.ec29.70fe'),
  ('10.220.88.20', 'c89c.1dea.0eb6'),
  ('10.220.88.21', '1c6a.7aaf.576c'),
