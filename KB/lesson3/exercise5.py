@@ -2,10 +2,10 @@
 
 import os
 
-WINDOWS = False
+base_os = os.name
 base_cmd_linux = 'ping -c 2'
 base_cmd_windows = 'ping -n 2'
-base_cmd = base_cmd_windows if WINDOWS else base_cmd_linux
+base_cmd = base_cmd_windows if base_os == 'nt' else base_cmd_linux
 
 print('\n')
 base = '.'
