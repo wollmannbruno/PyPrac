@@ -75,7 +75,7 @@ Using a for-loop, iterate over the dictionary and print out all of the dictionar
 Using a single for-loop, iterate over the dictionary and print out all of the dictionary keys and values.
 
 
-- [ ] 2. Create three separate lists of IP addresses. The first list should be the IP addresses of the Houston data center routers, and it should have over ten RFC1918 IP addresses in it (including some duplicate IP addresses).
+- [x] 2. Create three separate lists of IP addresses. The first list should be the IP addresses of the Houston data center routers, and it should have over ten RFC1918 IP addresses in it (including some duplicate IP addresses).
 
 The second list should be the IP addresses of the Atlanta data center routers, and it should have at least eight RFC1918 IP addresses (including some addresses that overlap with the Houston data center).
 
