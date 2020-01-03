@@ -60,7 +60,7 @@ Reference code for these exercises is posted on GitHub at:
 https://github.com/ktbyers/pynet/tree/master/learning_python/lesson4
 
 
-- [ ] 1. Create a dictionary representing a network device. The dictionary should have key-value pairs representing the 'ip_addr', 'vendor', 'username', and 'password' fields.
+- [x] 1. Create a dictionary representing a network device. The dictionary should have key-value pairs representing the 'ip_addr', 'vendor', 'username', and 'password' fields.
 
 Print out the 'ip_addr' key from the dictionary.
 
