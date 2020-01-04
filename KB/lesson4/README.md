@@ -90,7 +90,7 @@ Using set operations, find the IP addresses that are duplicated in all three sit
 Using set operations, find the IP addresses that are entirely unique in Chicago.
 
 
-- [ ] 3.  Read in the 'show_version.txt' file. From this file, use regular expressions to extract the OS version, serial number, and configuration register values.
+- [x] 3.  Read in the 'show_version.txt' file. From this file, use regular expressions to extract the OS version, serial number, and configuration register values.
 
 Your output should look as follows:
 
@@ -98,7 +98,7 @@ Your output should look as follows:
     Serial Number: FTX0000038X    
     ​Config Register: 0x2102 
 
-​4.  Using a named regular expression (?P\<name>), extract the model from the below string:
+​- [ ] 4.  Using a named regular expression (?P\<name>), extract the model from the below string:
 
     show_version = '''
     Cisco 881 (MPC8300) processor (revision 1.0) with 236544K/25600K bytes of memory.
