@@ -98,7 +98,7 @@ Your output should look as follows:
     Serial Number: FTX0000038X    
     ​Config Register: 0x2102 
 
-​- [ ] 4.  Using a named regular expression (?P\<name>), extract the model from the below string:
+​- [x] 4.  Using a named regular expression (?P\<name>), extract the model from the below string:
 
     show_version = '''
     Cisco 881 (MPC8300) processor (revision 1.0) with 236544K/25600K bytes of memory.
