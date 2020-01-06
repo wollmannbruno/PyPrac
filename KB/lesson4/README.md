@@ -43,13 +43,13 @@ This is a good resource if you are new to regular expressions.
 
 Select 'Python' on the left-hand side.
 
-- [ ] [Python Regular Expression HowTo](https://docs.python.org/3.7/howto/regex.html)
+- [x] [Python Regular Expression HowTo](https://docs.python.org/3.7/howto/regex.html)
 
 This is a good overview of regular expression special characters.
 
 Start at the very top of the page and read through the 'Repeating Things' section.
 
-- [ ] [Automate the Boring Stuff - Dictionaries and Structuring Data​](https://automatetheboringstuff.com/chapter5/)
+- [x] [Automate the Boring Stuff - Dictionaries and Structuring Data​](https://automatetheboringstuff.com/chapter5/)
 
 Read through the 'The GET() Method' section.
 
@@ -119,7 +119,7 @@ Once again, none of the actual digits of the memory on this device should be use
 Print both the model number and the memory string to the screen.
 
 
-- [ ] 5. Read the 'show_ipv6_intf.txt' file.
+- [x] 5. Read the 'show_ipv6_intf.txt' file.
 
 From this file, use Python regular expressions to extract the two IPv6 addresses.
 
