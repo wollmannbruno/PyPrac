@@ -1,10 +1,10 @@
 # Lesson5 / Functions and the Python Debugger
 
-- [ ] 1. Functions (Part1)
+- [x] 1. Functions (Part1)
 Video link https://vimeo.com/247570174
 Length is 8 minute
  
-- [ ] 2. Functions (Part2)
+- [x] 2. Functions (Part2)
 Video link https://vimeo.com/247581011
 Length is 11 minutes
  
@@ -23,7 +23,7 @@ Length is 10 minutes
 
 # Additional Content:
 
-- [ ] [A Byte of Python, Functions](https://swaroop-c-h.gitbook.io/byte-of-python/)
+- [ ] [A Byte of Python, Functions](https://swaroop-c-h.gitbook.io/byte-of-python/functions)
 
 - [ ] [How to use the Python Debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger)
  
