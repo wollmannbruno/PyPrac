@@ -8,15 +8,15 @@ Length is 8 minute
 Video link https://vimeo.com/247581011
 Length is 11 minutes
  
-- [ ] 3. Misc Topics (Part1)
+- [x] 3. Misc Topics (Part1)
 Video link https://vimeo.com/247582360
 Length is 10 minutes
  
-- [ ] 4. Misc Topics (Part2)
+- [x] 4. Misc Topics (Part2)
 Video link https://vimeo.com/247655574
 Length is 8 minutes
  
-- [ ] 5. Python Debugger (pdb)
+- [x] 5. Python Debugger (pdb)
 Video link https://vimeo.com/247724017
 Length is 10 minutes
 
