@@ -23,9 +23,9 @@ Length is 10 minutes
 
 # Additional Content:
 
-- [ ] [A Byte of Python, Functions](https://swaroop-c-h.gitbook.io/byte-of-python/functions)
+- [x] [A Byte of Python, Functions](https://swaroop-c-h.gitbook.io/byte-of-python/functions)
 
-- [ ] [How to use the Python Debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger)
+- [x] [How to use the Python Debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger)
  
 
 # Exercises
@@ -34,7 +34,7 @@ Reference code for these exercises is posted on GitHub at:
 https://github.com/ktbyers/pynet/tree/master/learning_python/lesson5
 
 
-- [ ] 1a. Create an ssh_conn function. This function should have three parameters: ip_addr, username, and password. The function should print out each of these three variables and clearly indicate which variable it is printing out.
+- [x] 1a. Create an ssh_conn function. This function should have three parameters: ip_addr, username, and password. The function should print out each of these three variables and clearly indicate which variable it is printing out.
 
 Call this ssh_conn function using entirely positional arguments.
 
