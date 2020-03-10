@@ -91,7 +91,7 @@ should be converted to:
 Write several test cases for your function and verify it is working properly.
 
 
-- [ ] 4. Copy your solution from exercise3 to exercise4. Add an 'import pdb' and pdb.set_trace() statement outside of your function (i.e. where you have your function calls).
+- [x] 4. Copy your solution from exercise3 to exercise4. Add an 'import pdb' and pdb.set_trace() statement outside of your function (i.e. where you have your function calls).
 
 Inside of pdb, experiment with:
 - Listing your code.

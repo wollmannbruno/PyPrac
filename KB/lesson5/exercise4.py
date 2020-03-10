@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import pdb
 
 macs = [
     'c89c.1dea.0eb6',
@@ -58,5 +59,6 @@ def mac_normalize(mac_addr):
 
 print()
 for addr in macs:
+    pdb.set_trace()
     print('{:<20} = {:>20}'.format(addr, mac_normalize(addr)))
 print()
