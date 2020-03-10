@@ -70,9 +70,9 @@ Call your function using a named argument.
 For each function call print the returned IP address to the screen.
 
 
-- [ ] 3. Similar to lesson3, exercise4 write a function that normalizes a MAC address to the following format:
+- [x] 3. Similar to lesson3, exercise4 write a function that normalizes a MAC address to the following format:
 
-    01:23:45:67:89:AB
+        01:23:45:67:89:AB
 
 This function should handle the lower-case to upper-case conversion.
 
