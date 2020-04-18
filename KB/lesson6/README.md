@@ -1,37 +1,37 @@
 # Lesson6 / Netmiko
  
-- [ ] 1. Netmiko Introduction and Basics
+- [x] 1. Netmiko Introduction and Basics
 Video link https://vimeo.com/254569911
 Length is 8 minutes
  
-- [ ] 2. Netmiko Show Commands
+- [x] 2. Netmiko Show Commands
 Video link https://vimeo.com/254578980
 Length is 13 minutes
  
-- [ ] 3. Netmiko and Prompting
+- [x] 3. Netmiko and Prompting
 Video link https://vimeo.com/254587832
 Length is 12 minutes
  
-- [ ] 4. Netmiko and TextFSM
+- [x] 4. Netmiko and TextFSM
 Video link https://vimeo.com/254611876
 Length is 10 minutes
  
-- [ ] 5. Netmiko Config Changes
+- [x] 5. Netmiko Config Changes
 Video link https://vimeo.com/254614073
 Length is 8 minutes
  
-- [ ] 6. Netmiko Troubleshooting
+- [x] 6. Netmiko Troubleshooting
 Video link https://vimeo.com/254786724
 Length is 9 minutes
 
 
 # Additional Content:
 
-- [ ] [Netmiko Readme](https://github.com/ktbyers/netmiko/blob/develop/README.md)
+- [x] [Netmiko Readme](https://github.com/ktbyers/netmiko/blob/develop/README.md)
 
-- [ ] [Netmiko Examples](https://github.com/ktbyers/netmiko/tree/develop/examples)
+- [x] [Netmiko Examples](https://github.com/ktbyers/netmiko/tree/develop/examples)
 
-- [ ] [Netmiko Tutorial](https://pynet.twb-tech.com/blog/automation/netmiko.html)
+- [x] [Netmiko Tutorial](https://pynet.twb-tech.com/blog/automation/netmiko.html)
 _This tutorial is a bit old, but still should be generally correct._
 
 
