@@ -94,6 +94,7 @@ d. Use pip to install the 'develop' branch of Netmiko.
 
 
 ## CLASS OUTLINE
+
 1. Importing Libraries (VIDEO1)
    1. import re   [00:04]
    2. re.\_\_file\_\_   (where is the library)   [00:34]
