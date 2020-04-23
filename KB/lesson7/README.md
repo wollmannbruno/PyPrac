@@ -1,18 +1,18 @@
 # Lesson7 / Jinja2, YAML and JSON
  
-- [ ] 1. Jinja2 Basics
+- [x] 1. Jinja2 Basics
 Video link https://vimeo.com/257997257
 Length is 7 minutes
  
-- [ ] 2. Jinja2 For-Loops and Conditionals
+- [x] 2. Jinja2 For-Loops and Conditionals
 Video link https://vimeo.com/257999160
 Length is 9 minute
  
-- [ ] 3. Jinja2 and CSV
+- [x] 3. Jinja2 and CSV
 Video link https://vimeo.com/258142987
 Length is 5 minutes
  
-- [ ] 4. Jinja2 Dictionaries and Nested Loops
+- [x] 4. Jinja2 Dictionaries and Nested Loops
 Video link https://vimeo.com/258145504
 Length is 11 minutes
  
@@ -50,7 +50,7 @@ Reference code for these exercises is posted on GitHub at:
 https://github.com/ktbyers/pynet/tree/master/learning_python/lesson7
 
 
-- [ ] 1a. Use Jinja2 templating to render the following:
+- [x] 1a. Use Jinja2 templating to render the following:
 
         vlan
             name
