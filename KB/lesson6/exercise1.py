@@ -3,6 +3,8 @@
 from getpass import getpass
 from netmiko import ConnectHandler
 
+print('\n')
+
 username = input('Username: ')
 password = getpass()
 
@@ -15,5 +17,7 @@ switch_1 = {
 
 net_connect = ConnectHandler(**switch_1)
 output = net_connect.find_prompt()
+net_connect.disconnect()
+
 print('-' * 40)
 print(output)
