@@ -15,8 +15,10 @@ switch_1 = {
     'password': password,
 }
 
+cmd = 'show ip arp'
+
 net_connect = ConnectHandler(**switch_1)
-output = net_connect.send_command('show ip arp')
+output = net_connect.send_command(cmd)
 net_connect.disconnect()
 
 print('-' * 40)
