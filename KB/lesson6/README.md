@@ -43,26 +43,26 @@ https://github.com/ktbyers/pynet/tree/master/learning_python/lesson6
 Note, you will need some sort of a network device to work on these exercises. This can be a virtual or physical device. Make sure you are only working on test or lab devices.
 
 
-- [ ] 1. Using Netmiko, establish a connection to a network device and print out the device's prompt.
+- [x] 1. Using Netmiko, establish a connection to a network device and print out the device's prompt.
 
 
-- [ ] 2. Use send_command() to send a show command down the SSH channel. Retrieve the results and print the results to the screen.
+- [x] 2. Use send_command() to send a show command down the SSH channel. Retrieve the results and print the results to the screen.
 
 
-- [ ] 3. Find a command on your device that has additional prompting. Use send_command_timing to send the command down the SSH channel. Capture the output and handle the additional prompting.
+- [x] 3. Find a command on your device that has additional prompting. Use send_command_timing to send the command down the SSH channel. Capture the output and handle the additional prompting.
 
 
-- [ ] 4. Use send_config_set() and send_config_from_file() to make configuration changes. 
+- [x] 4. Use send_config_set() and send_config_from_file() to make configuration changes. 
 
 The configuration changes should be benign. For example, on Cisco IOS I typically change the logging buffer size. 
 
 As part of your program verify that the configuration change occurred properly. For example, use send_command() to execute 'show run' and verify the new configuration.
 
 
-- [ ] 5. Optional, use send_command() in conjunction with ntc-templates to execute a show command. Have TextFSM automatically convert this show command output to structured data.
+- [x] 5. Optional, use send_command() in conjunction with ntc-templates to execute a show command. Have TextFSM automatically convert this show command output to structured data.
 
 
-- [ ] 6. Optional, connect to three networking devices one after the other. Use send_command() to execute a show command on each of these devices. Print this output to the screen.
+- [x] 6. Optional, connect to three networking devices one after the other. Use send_command() to execute a show command on each of these devices. Print this output to the screen.
 
 
 # CLASS OUTLINE
