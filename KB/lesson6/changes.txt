@@ -1,0 +1,3 @@
+interface Ethernet1/49
+description config using send_config_from_file from NetMiko
+logging console 0
