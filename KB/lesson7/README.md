@@ -142,7 +142,7 @@ The output of your Python script should be:
         ['Ethernet1', 'Ethernet2', 'Ethernet3', 'Ethernet4', 'Ethernet5', 'Ethernet6', 'Ethernet7', 'Management1', 'Vlan1']
 
 
-- [ ] 3b. Expand the data structure defined earlier in exercise3a. This time you should have an 'interfaces' key that refers to a dictionary.
+- [x] 3b. Expand the data structure defined earlier in exercise3a. This time you should have an 'interfaces' key that refers to a dictionary.
 
 Use Python to read in this YAML data structure and print this to the screen.
 
