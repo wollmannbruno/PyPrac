@@ -16,11 +16,11 @@ Length is 5 minutes
 Video link https://vimeo.com/258145504
 Length is 11 minutes
  
-- [ ] 5. YAML Basics
+- [x] 5. YAML Basics
 Video link https://vimeo.com/258161182
 Length is 9 minutes
  
-- [ ] 6. YAML Part2
+- [x] 6. YAML Part2
 Video link https://vimeo.com/258169427
 Length is 10 minutes
  
@@ -133,7 +133,7 @@ Your template should also use a conditional to control whether this is output or
 If the 'ospf_priority variable is defined', then include that section. If 'ospf_priority' is not defined then only include the 'router ospf 10' section.
 
 
-- [ ] 3a. Create a YAML file that defines a list of interface names. Use the expanded form of YAML.
+- [x] 3a. Create a YAML file that defines a list of interface names. Use the expanded form of YAML.
 
 Use a Python script to read in this YAML list and print it to the screen.
 
