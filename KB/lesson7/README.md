@@ -62,7 +62,7 @@ The output from processing your template should be as follows. This should be pr
         vlan 400
             name red400
 
-- [ ] 1b. Using a conditional in a Jinja2 template, generate the following output:
+- [x] 1b. Using a conditional in a Jinja2 template, generate the following output:
 
         crypto isakmp policy 10
             encr aes
