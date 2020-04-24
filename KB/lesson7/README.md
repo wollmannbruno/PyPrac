@@ -24,24 +24,24 @@ Length is 9 minutes
 Video link https://vimeo.com/258169427
 Length is 10 minutes
  
-- [ ] 7. Using Python to Write YAML
+- [x] 7. Using Python to Write YAML
 Video link https://vimeo.com/258171559
 Length is 3 minutes
  
-- [ ] 8. JSON
+- [x] 8. JSON
 Video link https://vimeo.com/258178243
 Length is 5 minutes
  
-- [ ] 9. Managing Data Structures
+- [x] 9. Managing Data Structures
 Video link https://vimeo.com/258181273
 Length is 5 minutes
 
 
 # Additional Content:
 
-- [ ] [Jinja2 Documentation](https://jinja.palletsprojects.com/en/2.10.x/templates/)
+- [x] [Jinja2 Documentation](https://jinja.palletsprojects.com/en/2.11.x/templates/)
 
-- [ ] [YAML Syntax Basics](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
+- [x] [YAML Syntax Basics](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
 
 
 # Exercises
@@ -158,7 +158,7 @@ The output of your Python script should look as follows (in other words, your YA
         }
 
 
-- [ ] 4. Take the YAML file and corresponding data structure that you defined in exercise3b:
+- [x] 4. Take the YAML file and corresponding data structure that you defined in exercise3b:
 
         {'interfaces': {
             'Ethernet1': {'mode': 'access', 'vlan': 10},
