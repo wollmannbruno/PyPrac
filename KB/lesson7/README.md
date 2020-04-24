@@ -78,7 +78,7 @@ Additionally this entire ISAKMP section should only be added if the isakmp_enabl
 Your template should be inside your Python program for simplicity.
 
 
-- [ ] 1c. Using Jinja2 templating and a for-loop inside the template, generate the following configuration snippet:
+- [x] 1c. Using Jinja2 templating and a for-loop inside the template, generate the following configuration snippet:
 
         vlan 501
             name blue501
