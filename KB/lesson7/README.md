@@ -102,7 +102,7 @@ Your template should be inside your Python program for simplicity.
 It is fine for your VLAN IDs to be out of order in the generated configuration (for example, VLAN ID 508 can come before VLAN ID 504).
 
 
-- [ ] 2. Using Python and Jinja2 templating generate the following OSPF configuration:
+- [x] 2. Using Python and Jinja2 templating generate the following OSPF configuration:
 
         interface vlan 1
             ip ospf priority 100

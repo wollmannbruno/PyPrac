@@ -1,0 +1,13 @@
+{% if ospf_priority %}
+interface vlan 1
+  ip ospf priority {{ ospf_priority }}
+{% endif %}
+router ospf {{ ospf_process_id }}
+  passive-interface default
+  {%- for ospf_active_interface in ospf_active_interfaces %}
+  no passive-interface {{ ospf_active_interface }}
+  {%- endfor %}
+  {%- for ospf_area0_network in ospf_area0_networks %}
+  network {{ ospf_area0_network }} area 0.0.0.0
+  {%- endfor %}
+  max-lsa 12000
