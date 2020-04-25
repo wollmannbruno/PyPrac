@@ -1,22 +1,22 @@
 # Lesson8 / Libraries, PIP, and Virtual Environments
 
-- [ ] 1. Importing Libraries
+- [x] 1. Importing Libraries
 Video link https://vimeo.com/259422351
 Length is 5 minutes
  
-- [ ] 2. sys.path and PYTHONPATH
+- [x] 2. sys.path and PYTHONPATH
 Video link https://vimeo.com/259423316
 Length is 7 minutes
  
-- [ ] 3. pip
+- [x] 3. pip
 Video link https://vimeo.com/259424573
 Length is 7 minutes
  
-- [ ] 4. Virtual Environments
+- [x] 4. Virtual Environments
 Video link https://vimeo.com/259426537
 Length is 6 minutes
  
-- [ ] 5. Creating a Simple Python Module
+- [x] 5. Creating a Simple Python Module
 Video link https://vimeo.com/259427586
 Length is 4 minutes
 
@@ -36,7 +36,7 @@ Reference code for these exercises is posted on GitHub at:
 https://github.com/ktbyers/pynet/tree/master/learning_python/lesson8
 
 
-- [ ] 1a. Import the 'datetime' library. Print out the module that is being imported by datetime (the \_\_file\_\_ attribute)
+- [x] 1a. Import the 'datetime' library. Print out the module that is being imported by datetime (the \_\_file\_\_ attribute)
 
 Import the Python ipaddress library. Print out the module that is being imported by ipaddress (the \_\_file\_\_ attribute). If you are using Python 2.7, you will need to pip install the ipaddress library.
 
