@@ -23,9 +23,9 @@ Length is 4 minutes
 
 ## Additional Content:
 
-- [ ] [A non-magical introduction to Pip and Virtualenv for Python beginners​](https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/)
+- [x] [A non-magical introduction to Pip and Virtualenv for Python beginners​](https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/)
 
-- [ ] [Common Python Tools: Using virtualenv, Installing with Pip, and Managing Packages​](https://www.digitalocean.com/community/tutorials/common-python-tools-using-virtualenv-installing-with-pip-and-managing-packages)
+- [x] [Common Python Tools: Using virtualenv, Installing with Pip, and Managing Packages​](https://www.digitalocean.com/community/tutorials/common-python-tools-using-virtualenv-installing-with-pip-and-managing-packages)
 
 Read the "Using pip" section.
 
@@ -43,7 +43,7 @@ Import the Python ipaddress library. Print out the module that is being imported
 Import sys and use pprint to pprint sys.path
 
 
-- [ ] 1b. In a separate Python file named 'my_devices.py', define a dictionary named 'rtr1' with the following key-value pairs:
+- [x] 1b. In a separate Python file named 'my_devices.py', define a dictionary named 'rtr1' with the following key-value pairs:
 
       host = rtr1.domain.com
       username = cisco
@@ -53,14 +53,14 @@ Import sys and use pprint to pprint sys.path
 Import my_devices into this program, and print the rtr1 dictionary to the screen using pprint.
 
 
-- [ ] 1c. In a Python shell, try importing the 'my_devices' when my_devices.py is not in your current working directory.
+- [x] 1c. In a Python shell, try importing the 'my_devices' when my_devices.py is not in your current working directory.
 
 What exception do you get when you do this?
 
 Update your PYTHONPATH environment variable so that you are successfully able to import this module.
 
 
-- [ ] 2a. Create a new virtual environment on your system named 'test_venv'.
+- [x] 2a. Create a new virtual environment on your system named 'test_venv'.
 
 b. Activate the virtual environment
 
@@ -73,7 +73,7 @@ e. Use pip to install Netmiko and the requests library.
 f. Use 'pip list' to see the updated list of installed packages.
 
 
-- [ ] 3a. Using the same 'test_venv' that you created in exercise2, install netmiko version 2.0.1. Verify that this version is installed by executing the following from the Python shell:
+- [x] 3a. Using the same 'test_venv' that you created in exercise2, install netmiko version 2.0.1. Verify that this version is installed by executing the following from the Python shell:
 
       >>> import netmiko
       >>> netmiko.__version__
@@ -84,7 +84,7 @@ b. Using pip, upgrade your version of Netmiko to the latest version.
 c. Deactivate your virtual environment. See 'which python' is now being used.
 
 
-- [ ] 4a. Activate your 'test_venv' virtual environment.
+- [x] 4a. Activate your 'test_venv' virtual environment.
 
 b. Use pip to uninstall the Netmiko library.
 
